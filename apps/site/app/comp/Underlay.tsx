@@ -186,7 +186,7 @@ const Underlay = () => {
   return (
     <div
       ref={containerRef}
-      className="max-w-120 h-dvh w-screen bg-black overflow-hidden"
+      className="max-w-120 h-dvh debug w-screen bg-black overflow-hidden"
     >
       <div
         ref={topDivRef}
@@ -202,7 +202,7 @@ const Underlay = () => {
       </div>
       <div
         ref={dragHandleRef}
-        className="w-100 h-10 bg-black/40 cursor-grab select-none flex items-center justify-center text-white font-semibold"
+        className="w-full h-10 bg-black/40 cursor-grab select-none flex items-center justify-center text-white font-semibold"
         style={{ cursor: isDragging ? "grabbing" : "grab" }}
         onMouseDown={handleMouseDown}
       >
