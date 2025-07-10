@@ -214,7 +214,7 @@ const Underlay = () => {
         style={{ height: bottomHeight }}
       >
         <div className="text-center">
-          <div className="font-semibold">Lower Layer</div>
+          <div className="font-semibold">Lower Layers</div>
           <div className="text-sm mt-2 bg-white/20 px-2 py-1 rounded">
             {bottomDimensions.width}px × {bottomDimensions.height}px
           </div>
