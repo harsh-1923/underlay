@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "underlay",
   "private": true,
   "scripts": {
     "build": "turbo run build",
